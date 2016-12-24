@@ -14,4 +14,9 @@ public class ViewController {
         return "test";
     }
 
+    @RequestMapping("/static")
+    public String staticResource() {
+        return "static";
+    }
+
 }
